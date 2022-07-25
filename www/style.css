@@ -7,6 +7,7 @@ body {
 
 * {
     flex-direction: column;
+    color: white;
 }
 
 .wrap {
@@ -33,11 +34,17 @@ a {
 
 .ascii {
     font-family: monospace;
-    font-size: clamp(1em, 3vh, 5em);
+    font-size: clamp(0.1em, 1.5vw, 5em);
     white-space: pre;
     text-align: center;
     user-select: none;
     width: auto;
     height: auto;
-    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    .ascii {
+        font-size: clamp(1em, 2vw, 5em);
+        width: auto;
+    }
 }
