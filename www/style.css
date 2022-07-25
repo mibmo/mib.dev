@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+}
+
+* {
+    flex-direction: column;
+}
+
+.wrap {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::selection {
+    color: black;
+    background: yellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ascii {
+    font-family: monospace;
+    font-size: clamp(1em, 3vh, 5em);
+    white-space: pre;
+    text-align: center;
+    user-select: none;
+    width: auto;
+    height: auto;
+    color: white;
+}
