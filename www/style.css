@@ -36,7 +36,7 @@ a {
     font-family: monospace;
     font-size: clamp(0.1em, 1.5vw, 5em);
     white-space: pre;
-    text-align: center;
+    text-align: left;
     user-select: none;
     width: auto;
     height: auto;
